@@ -88,4 +88,23 @@ select {
 .desc-tit {
 	font-family: 'Roboto';
 	color: #3d4f9f;
+	margin-top: 92px;
+	margin-bottom: 16px;
+}
+.tit {
+	font-family: 'Quicksand';
+	color: #3d4f9f;
+	margin-bottom: 28px;
+	font-size: 48px;
+	font-weight: 300;
+}
+.increase {
+	text-align: center;
+}
+.txt {
+	color: #8d96bd;
+	font-family: 'Roboto';
+	line-height: 191%;
+	font-size: 15px;
+	font-weight: 400;
 }
