@@ -15,6 +15,9 @@ body {
 	color: #333;
 	background-color: #f8f9fa;
 	padding: 20px;
+	margin: 0;
+	padding: 0;
+	height: 100%;
 }
 
 /* Контейнер */
@@ -107,4 +110,35 @@ select {
 	line-height: 191%;
 	font-size: 15px;
 	font-weight: 400;
+}
+
+
+.play-button {
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    background: white;
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06);
+    font-size: 24px;
+    color: #4c8bf5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.play-button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.play-button:active {
+    transform: scale(0.95);
+}
+.increase{
+	background: url(img/increase-bg.jpg);
+	width: 1440px;
+	height: 570px;
+	position: absolute;
 }
