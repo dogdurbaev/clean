@@ -49,7 +49,7 @@ a:hover {
 /* Кнопки */
 button {
 	display: inline-block;
-	padding: 10px 20px;
+	/* padding: 10px 20px; */
 	font-size: 16px;
 	border: none;
 	border-radius: 5px;
@@ -84,6 +84,41 @@ select {
 	margin-bottom: 10px;
 	border: 1px solid #ccc;
 	border-radius: 5px;
+}
+.head {
+	display: flex;
+	margin: 0 117px;
+	justify-content: space-between;
+}
+.head_ul {
+	display: flex;
+	justify-content: space-between;
+	width: 427px;
+	height: 15px;
+}
+.head_icon {
+	width: 26px;
+	height: 26px;
+	margin-right: 73px;
+}
+.head_li {
+	width: 37px;
+	height: 15px;
+	color: #697ca6;
+	margin-right: 42px;
+}
+.head_li:last-child {
+	margin-right: 0;
+}
+.head_button {
+	width: 113px;
+	height: 43px;
+	float: none;
+	padding: 13px 15px;
+}
+.head_button:hover {
+	background-color: #d2e1ff;
+	color: #3a79ff;
 }
 .desc-tit {
 	font-family: 'Roboto';
